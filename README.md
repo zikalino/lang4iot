@@ -17,7 +17,7 @@
 
 ## Kotlin
 
-    https://github.com/JetBrains/kotlin-native/
+    https://github.com/JetBrains/kotlin
 
 ## JavaScript
 
