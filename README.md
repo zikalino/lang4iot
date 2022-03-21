@@ -74,3 +74,8 @@
 
 # API Bindings
 
+# Tools
+
+## wabt
+
+https://github.com/WebAssembly/wabt
