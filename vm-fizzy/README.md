@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-	docker run -it zimkal/vm-fizzy bash
+	docker run -it -v %cd%/samples:/samples zimkal/vm-fizzy bash
 
-	root@f7a6c4086bd0:/# ./fizzy/build/bin/fizzy-wasi ./fizzy/test/smoketests/wasi/helloworld.wasm
+	root@f7a6c4086bd0:/# ./fizzy/build/bin/fizzy-wasi /samples/helloworld.wasm
 	hello world
