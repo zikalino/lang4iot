@@ -15,6 +15,8 @@
 
 ## Go
 
+    https://github.com/tinygo-org/tinygo
+
 ## Haskell
 
 ## Java
@@ -30,6 +32,8 @@
 ## Ruby
 
 ## Rust
+
+    https://www.hellorust.com/setup/wasm-target/
 
 ## Scheme
 
@@ -74,8 +78,31 @@
 
 # API Bindings
 
+## WASI
+
+TBD
+
+## Custom ESP32
+
+TBD
+
 # Tools
 
 ## wabt
 
-https://github.com/WebAssembly/wabt
+    https://github.com/WebAssembly/wabt
+
+# Simulation
+
+## Renode
+
+    https://renode.io
+
+## Wokwi
+
+    https://wokwi.com
+
+## TinkerCAD
+
+    https://www.tinkercad.com
+
