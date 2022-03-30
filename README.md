@@ -14,6 +14,7 @@
 - via Blazor
 
 - https://stackoverflow.com/questions/70474778/compiling-c-sharp-project-to-webassembly
+- https://github.com/dotnet/runtimelab/tree/feature/NativeAOT-LLVM
 
 ## Go
 
