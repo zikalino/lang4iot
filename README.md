@@ -13,6 +13,8 @@
 
 - via Blazor
 
+- https://stackoverflow.com/questions/70474778/compiling-c-sharp-project-to-webassembly
+
 ## Go
 
     https://github.com/tinygo-org/tinygo
