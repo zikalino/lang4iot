@@ -26,38 +26,20 @@
 |WAVM|||
 |WAMR|||
 
+# API Bindings
 
-## EOSVM
+## WASI
 
-    https://github.com/EOSIO/eos-vm
+TBD
 
-## Fizzy
+## Custom ESP32
 
-    https://github.com/wasmx/fizzy
+TBD
 
-## Wasm3
+# Visual Studio Code Extension
 
-    https://github.com/wasm3/wasm3
+# Tools
 
-## wac
-
-    https://github.com/kanaka/wac
-
-## wasmrt
-
-    https://github.com/rhitchcock/wasmrt
-
-## wasmvm
-
-    https://github.com/WasmVM/WasmVM
-
-## WAVM
-
-    https://github.com/WAVM/WAVM
-
-## WAMR
-
-    https://github.com/bytecodealliance/wasm-micro-runtime
 
 # Move Somewhere Else
 
