@@ -1,4 +1,8 @@
-# Introduction
+## Example
+
+    docker run -it -v %cd%/samples:/samples zimkal/wasm-cheerp bash
+
+    /opt/cheerp/bin/clang++ -target cheerp-wasm /samples/helloworld-c.c -O3 -o /samples/target.js
 
 
 # References
