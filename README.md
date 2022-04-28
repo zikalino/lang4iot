@@ -2,6 +2,65 @@
 
 # Languages
 
+| |x86  |ESP32|
+|-|-----|-----|
+|C++|||
+|C#|||
+|Go|||
+|Haskell|||
+|Java|||
+|Kotlin|||
+|Rust|||
+|TypeScript||
+
+# Runtimes
+
+| |x86  |ESP32|
+|-|-----|-----|
+|EOSVM|||
+|Fizzy|||
+|Wasm3|||
+|wac|||
+|wasmrt|||
+|wasmvm|||
+|WAVM|||
+|WAMR|||
+
+
+## EOSVM
+
+    https://github.com/EOSIO/eos-vm
+
+## Fizzy
+
+    https://github.com/wasmx/fizzy
+
+## Wasm3
+
+    https://github.com/wasm3/wasm3
+
+## wac
+
+    https://github.com/kanaka/wac
+
+## wasmrt
+
+    https://github.com/rhitchcock/wasmrt
+
+## wasmvm
+
+    https://github.com/WasmVM/WasmVM
+
+## WAVM
+
+    https://github.com/WAVM/WAVM
+
+## WAMR
+
+    https://github.com/bytecodealliance/wasm-micro-runtime
+
+# Move Somewhere Else
+
 ## C/C++
 
 - native (ESP IDF)
