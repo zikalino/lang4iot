@@ -1,4 +1,4 @@
-# Introduction
+h# Introduction
 
 # Languages
 
@@ -9,10 +9,12 @@
 |             |[Smooth](lang-c-cpp-smooth/README.md)|     |     |
 |             |[Native](lang-c-cpp-native/README.md)|     |     |
 |C#           |Blazor             |     |     |
+|             |NanoFramework      |     |     |
 |Go           |TinyGo             |     |     |
 |Haskell      |                   |     |     |
 |Java         |                   |     |     |
 |Kotlin       |                   |     |     |
+|Python       |MicroPython        |     |     |
 |Rust         |                   |     |     |
 |TypeScript   |                   |     |     |
 
