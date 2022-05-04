@@ -7,6 +7,7 @@
 |C++          |[Emscripten](lang-c-cpp-emscripten/README.md)|     |     |
 |             |[Cheerp](lang-c-cpp-cheerp/README.md)|     |     |
 |             |[Smooth](lang-c-cpp-smooth/README.md)|     |     |
+|             |[Native](lang-c-cpp-native/README.md)|     |     |
 |C#           |Blazor             |     |     |
 |Go           |TinyGo             |     |     |
 |Haskell      |                   |     |     |
