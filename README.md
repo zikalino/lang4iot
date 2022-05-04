@@ -4,7 +4,9 @@
 
 |             |Implementations    |x86  |ESP32|
 |-------------|-------------------|-----|-----|
-|C++          |[Emscripten](lang-c-cpp-emscripten/README.md), [Cheerp](lang-c-cpp-cheerp/README.md)|     |     |
+|C++          |[Emscripten](lang-c-cpp-emscripten/README.md)|     |     |
+|             |[Cheerp](lang-c-cpp-cheerp/README.md)|     |     |
+|             |[Smooth](lang-c-cpp-smooth/README.md)|     |     |
 |C#           |Blazor             |     |     |
 |Go           |TinyGo             |     |     |
 |Haskell      |                   |     |     |
