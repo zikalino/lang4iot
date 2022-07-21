@@ -1,4 +1,4 @@
-h# Introduction
+# Introduction
 
 # Languages
 
@@ -12,11 +12,16 @@ h# Introduction
 |             |NanoFramework      |     |     |
 |Go           |TinyGo             |     |     |
 |Haskell      |                   |     |     |
-|Java         |                   |     |     |
-|Kotlin       |                   |     |     |
-|Python       |MicroPython        |     |     |
+|Java         |via TeaVM                   |     |     |
+|Kotlin       |via TeaVM                   |     |     |
+|Python       |MicroPython, via Pyodide        |     |     |
 |Rust         |                   |     |     |
 |TypeScript   |                   |     |     |
+|Haxe         |                   |     |     |
+|PHP          |Experimental but working proto|   |   |
+|Ruby         |
+|Swift        |Swift WASM
+
 
 # Runtimes
 
