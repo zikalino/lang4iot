@@ -5,19 +5,13 @@
 
 
 
-## Compiling HelloWorld!
+## Compiling HelloWorld
 
 
+    swiftc -target wasm32-unknown-wasi hello.swift -o hello.wasm
 
 
-........................................
-    rustc +nightly --target wasm32-unknown-unknown -O /samples/helloworld-rust.rs
-
-First output size is: helloworld-rust.wasm (1712472)
-
-    wasm-gc /samples/helloworld-rust.wasm /samples/helloworld-rust-small.wasm
-
-Then size is 49787
+## Running HelloWorld
 
 
 # References
