@@ -2,39 +2,39 @@
 
 # Languages
 
-|             |Implementations    |x86  |ESP32|
-|-------------|-------------------|-----|-----|
+|             |Implementations                              |x86  |ESP32|
+|-------------|---------------------------------------------|-----|-----|
 |C++          |[Emscripten](lang-c-cpp-emscripten/README.md)|     |     |
-|             |[Cheerp](lang-c-cpp-cheerp/README.md)|     |     |
-|             |[Smooth](lang-c-cpp-smooth/README.md)|     |     |
-|             |[Native](lang-c-cpp-native/README.md)|     |     |
-|C#           |Blazor             |     |     |
-|             |NanoFramework      |     |     |
-|Go           |TinyGo             |     |     |
-|Haskell      |                   |     |     |
-|Java         |via TeaVM                   |     |     |
-|Kotlin       |via TeaVM                   |     |     |
-|Python       |MicroPython, via Pyodide        |     |     |
-|Rust         |                   |     |     |
-|TypeScript   |                   |     |     |
-|Haxe         |                   |     |     |
-|PHP          |Experimental but working proto|   |   |
-|Ruby         |
-|Swift        |Swift WASM
+|             |[Cheerp](lang-c-cpp-cheerp/README.md)        |     |     |
+|             |[Smooth](lang-c-cpp-smooth/README.md)        |     |     |
+|             |[Native](lang-c-cpp-native/README.md)        |     |     |
+|C#           |Blazor                                       |     |     |
+|             |NanoFramework                                |     |     |
+|Go           |TinyGo                                       |     |     |
+|Haskell      |                                             |     |     |
+|Java         |via TeaVM                                    |     |     |
+|Kotlin       |via TeaVM                                    |     |     |
+|Python       |MicroPython, via Pyodide                     |     |     |
+|Rust         |                                             |     |     |
+|TypeScript   |                                             |     |     |
+|Haxe         |                                             |     |     |
+|PHP          |Experimental but working proto               |     |     |
+|Ruby         |                                             |     |     |
+|Swift        |Swift WASM                                   |     |     |
 
 
 # Runtimes
 
-| |x86  |ESP32|
-|-|-----|-----|
-|EOSVM|||
-|Fizzy|||
-|Wasm3|||
-|wac|||
-|wasmrt|||
-|wasmvm|||
-|WAVM|||
-|WAMR|||
+|       |x86  |ESP32|
+|-------|-----|-----|
+|EOSVM  |     |     |
+|Fizzy  |     |     |
+|Wasm3  |     |     |
+|wac    |     |     |
+|wasmrt |     |     |
+|wasmvm |     |     |
+|WAVM   |     |     |
+|WAMR   |     |     |
 
 # API Bindings
 
