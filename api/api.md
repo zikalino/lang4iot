@@ -9,6 +9,9 @@
 - Toit
 - NodeMCU
 - Arduino
+- ESP C++ API
+- NuttX
+- Zephyr
 
 ## What APIs are covered by WASI?
 
@@ -139,3 +142,11 @@
 |The himem allocation API                              |                                           |  |  |  |
 |ULP Coprocessor programming                           |                                           |  |  |  |
 |Watchdogs                                             |                                           |  |  |  |
+
+
+# References
+
+## Zephyr
+
+https://github.com/zephyrproject-rtos/zephyr/issues/29394
+

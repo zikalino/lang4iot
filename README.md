@@ -39,13 +39,13 @@ The idea is to provide examples, dockerfiles and instructions, so it shoudl be p
 |             |[Native](languages/c-cpp-via-native/README.md)                   |
 |C#           |[Blazor](languages/csharp-via-blazor/README.md)                  |
 |             |[NanoFramework](languages/csharp-via-nanoframerwork)             |
-|Go           |[TinyGo](languages/go-via-tinygo)                                |
+|Go           |[TinyGo](languages/go)                                |
 |Haskell      |[Haskell](languages/haskell)                                     |
 |Java         |[Java](languages/java-via-teavm/README.md)                       |
 |Kotlin       |[Kotlin](languages/kotlin-via-teavm/README.md)                   |
 |Python       |[Python](languages/python-via-pyodide/README.md)                 |
 |Rust         |[Rust](languages/rust/README.md)                                 |
-|TypeScript   |[TypeScript](languages/typescript-via-assemblyscript/README.md)  |
+|TypeScript   |[TypeScript](languages/typescript/README.md)  |
 |Haxe         |[Haxe](languages/haxe/README.md)                                 |
 |PHP          |[PHP](languages/php/README.md)                                   |
 |Ruby         |[Ruby](languages/ruby/README.md)                                 |
@@ -118,7 +118,10 @@ TBD
 
 ## wabt
 
+Suite of tools for WebAssembly:
+
     https://github.com/WebAssembly/wabt
+
 
 # Simulation
 

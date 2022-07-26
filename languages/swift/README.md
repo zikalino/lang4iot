@@ -1,15 +1,8 @@
-
-
-
 # Swift on ESP32
-
-
 
 ## Compiling HelloWorld
 
-
     swiftc -target wasm32-unknown-wasi hello.swift -o hello.wasm
-
 
 ## Running HelloWorld
 
