@@ -8,6 +8,7 @@
 - NanoFramework (https://docs.nanoframework.net/api/index.html)
 - Toit
 - NodeMCU
+- Arduino
 
 ## What APIs are covered by WASI?
 

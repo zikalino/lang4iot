@@ -19,9 +19,11 @@ The idea is to provide examples, dockerfiles and instructions, so it shoudl be p
 
 (1) Provide a template of using ESP IDF test framework with Linux and QEMU. 
 
-(2) Study and define common API for IOT
+(2) Study and define common API for IoT
 
 (3) Performance comparison between various language implementations, WASM and non-WASM runtimes
+
+(4) Swagger-like API definition
 
 ## Future Goals 
 
@@ -62,9 +64,8 @@ The idea is to provide examples, dockerfiles and instructions, so it shoudl be p
 |WAVM   |     |     |
 |WAMR   |     |     |
 
-# API Bindings
 
-## WASI
+# API Bindings
 
 Check details [here](api/api.md)
 
