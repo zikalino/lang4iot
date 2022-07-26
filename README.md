@@ -17,9 +17,11 @@ The idea is to provide examples, dockerfiles and instructions, so it shoudl be p
 
 ## Additional Goals
 
-(1) Study and define common API for IOT
+(1) Provide a template of using ESP IDF test framework with Linux and QEMU. 
 
-(2) Performance comparison between various language implementations, WASM and non-WASM runtimes.
+(2) Study and define common API for IOT
+
+(3) Performance comparison between various language implementations, WASM and non-WASM runtimes
 
 ## Future Goals 
 
