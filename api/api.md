@@ -4,6 +4,7 @@
 
 - MicroPython
 - CircuitPython
+- Rust
 - NanoFramework (https://docs.nanoframework.net/api/index.html)
 - NodeMCU
 
@@ -37,6 +38,7 @@
 |mDNS Service                                          |                                           |  |  |  |
 |Mbed TLS                                              |                                           |  |  |  |
 |IP Network Layer                                      |                                           |  |  |  |
+|                                                      |                                           |  |  |  |
 |**Bluetooth API**                                     |                                           |  |  |  |
 |BT COMMON                                             |                                           |  |  |  |
 |BT LE                                                 |                                           |  |  |  |
@@ -44,14 +46,17 @@
 |Controller && VHCI                                    |                                           |  |  |  |
 |ESP-BLE-MESH                                          |                                           |  |  |  |
 |NimBLE-based host APIs                                |                                           |  |  |  |
-|**Error Codes Reference**|                            |                                           |  |  |  |
-|**Networking APIs**|                                  |                                           |  |  |  |
+|                                                      |                                           |  |  |  |
+|**Error Codes Reference**                             |                                           |  |  |  |
+|                                                      |                                           |  |  |  |
+|**Networking APIs**                                   |                                           |  |  |  |
 |Wi-Fi                                                 |                                           |  |  |  |
 |Ethernet                                              |                                           |  |  |  |
 |Thread                                                |                                           |  |  |  |
 |ESP-NETIF                                             |                                           |  |  |  |
 |IP Network Layer                                      |                                           |  |  |  |
 |Application Layer                                     |                                           |  |  |  |
+|                                                      |                                           |  |  |  |
 |**Peripherals API**|                                  |                                           |  |  |  |
 |Analog to Digital Converter (ADC)                     |                                           |  |  |  |
 |Digital To Analog Converter (DAC)                     |                                           |  |  |  |
