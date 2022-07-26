@@ -6,6 +6,7 @@
 - CircuitPython
 - Rust
 - NanoFramework (https://docs.nanoframework.net/api/index.html)
+- Toit
 - NodeMCU
 
 ## What APIs are covered by WASI?
