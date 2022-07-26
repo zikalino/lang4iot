@@ -84,6 +84,9 @@ Check details [here](api/api.md)
 
     https://github.com/wasm3/wasm3
 
+    Tests running in QEMU
+    https://github.com/wasm3/wasm3/blob/9dcfce271c2fac86823725fc9ec0f75309d820e4/.github/workflows/tests.yml#L491-L516
+
 ## wac
 
     https://github.com/kanaka/wac
