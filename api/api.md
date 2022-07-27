@@ -7,7 +7,7 @@ The objective is to define a common set of APIs for ESP32 chips.
 ## Which platforms are taken into account for comparison?
 
 - Arduino
-- Rust
+- Rust (Embedded Hell)
 - NuttX
 - Zephyr
 - MicroPython
