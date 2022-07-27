@@ -1,17 +1,21 @@
 # Common API
 
+## Objective
+
+The objective is to define a common set of APIs for ESP32 chips.
+
 ## Which platforms are taken into account for comparison?
 
+- Arduino
+- Rust
+- NuttX
+- Zephyr
 - MicroPython
 - CircuitPython
-- Rust
 - NanoFramework (https://docs.nanoframework.net/api/index.html)
 - Toit
 - NodeMCU
-- Arduino
 - ESP C++ API
-- NuttX
-- Zephyr
 
 ## What APIs are covered by WASI?
 
