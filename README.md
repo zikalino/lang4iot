@@ -35,12 +35,12 @@ The idea is to provide examples, dockerfiles and instructions, so it shoudl be p
 |-------------|-----------------------------------------------------------------|
 |C++          |[Emscripten](languages/c-cpp-via-emscripten/README.md)           |
 |             |[Cheerp](languages/c-cpp-via-cheerp/README.md)                   |
-|             |[Smooth](languages/c-cpp-via-smooth/c-cpp-smooth/README.md)      |
+|             |[Smooth](languages/c-cpp-via-smooth/README.md)                   |
 |             |[Native](languages/c-cpp-via-native/README.md)                   |
 |C#           |[Blazor](languages/csharp-via-blazor/README.md)                  |
 |             |[NanoFramework](languages/csharp-via-nanoframerwork)             |
-|Go           |[TinyGo](languages/go)                                           |
-|Haskell      |[Haskell](languages/haskell)                                     |
+|Go           |[TinyGo](languages/go/README.md)                                 |
+|Haskell      |[Haskell](languages/haskell/README.md)                           |
 |Java         |[Java](languages/java-via-teavm/README.md)                       |
 |Kotlin       |[Kotlin](languages/kotlin-via-teavm/README.md)                   |
 |Python       |[Python](languages/python-via-pyodide/README.md)                 |
