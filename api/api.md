@@ -148,7 +148,7 @@ The objective is to define a common set of APIs for ESP32 chips.
 |Watchdogs                                             |                                           |  |  |  |
 
 - Hall Sensor (Arduino)?
-- 
+- usb?
 
 # References
 
