@@ -59,7 +59,7 @@ The objective is to define a common set of APIs for ESP32 chips.
 |**Error Codes Reference**                             |                                           |  |  |  |
 |                                                      |                                           |  |  |  |
 |**Networking APIs**                                   |                                           |  |  |  |
-|Wi-Fi                                                 |                                           |  |  |  |
+|Wi-Fi                                                 |                                           |YES  |  |  |
 |Ethernet                                              |                                           |ESP32|  |  |
 |Thread                                                |                                           |  |  |  |
 |ESP-NETIF                                             |                                           |  |  |  |
@@ -87,8 +87,8 @@ The objective is to define a common set of APIs for ESP32 chips.
 |SPI Slave Driver                                      |                                           |  |  |  |
 |ESP32-WROOM-32SE (Secure Element)                     |                                           |  |  |  |
 |Touch Sensor                                          |                                           |  |  |  |
-|Two-Wire Automotive Interface (TWAI)                  |                                           |  |  |  |
-|Universal Asynchronous Receiver/Transmitter (UART)    |                                           |  |  |  |
+|Two-Wire Automotive Interface (TWAI)                  |                                           |YES |  |  |
+|Universal Asynchronous Receiver/Transmitter (UART)    |                                           |YES  |  |  |
 |                                                      |                                           |  |  |  |
 |**Project Configuration**                             |                                           |  |  |  |
 |Introduction                                          |                                           |  |  |  |
