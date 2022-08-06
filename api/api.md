@@ -30,28 +30,28 @@ The objective is to define a common set of APIs for ESP32 chips.
 ## API Comparison
 
 
-|Group                                                 |Original C                                 |XX|XX|XX|
-|------------------------------------------------------|-------------------------------------------|--|--|--|
-|**Application Protocols**                             |                                           |  |  |  |
-|ASIO port                                             |                                           |  |  |  |
-|ESP-Modbus                                            |                                           |  |  |  |
-|ESP-MQTT                                              |                                           |  |  |  |
-|ESP-TLS                                               |                                           |  |  |  |
-|ESP HTTP Client                                       |                                           |  |  |  |
-|ESP Local Control                                     |                                           |  |  |  |
-|ESP Serial Slave Link                                 |                                           |  |  |  |
-|ESP x509 Certificate Bundle                           |                                           |  |  |  |
-|HTTP Server                                           |                                           |  |  |  |
-|HTTPS server                                          |                                           |  |  |  |
-|ICMP Echo                                             |                                           |  |  |  |
-|mDNS Service                                          |                                           |  |  |  |
-|Mbed TLS                                              |                                           |  |  |  |
-|IP Network Layer                                      |                                           |  |  |  |
-|                                                      |                                           |  |  |  |
-|**Bluetooth API**                                     |                                           |  |  |  |
-|BT COMMON                                             |                                           |  |  |  |
-|BT LE                                                 |                                           |  |  |  |
-|CLASSIC BT                                            |                                           |  |  |  |
+|Group                                                 |Original C                                 |Arduino|XX|XX|
+|------------------------------------------------------|-------------------------------------------|-------|--|--|
+|**Application Protocols**                             |                                           |       |  |  |
+|ASIO port                                             |                                           |       |  |  |
+|ESP-Modbus                                            |                                           |       |  |  |
+|ESP-MQTT                                              |                                           |       |  |  |
+|ESP-TLS                                               |                                           |       |  |  |
+|ESP HTTP Client                                       |                                           |       |  |  |
+|ESP Local Control                                     |                                           |       |  |  |
+|ESP Serial Slave Link                                 |                                           |       |  |  |
+|ESP x509 Certificate Bundle                           |                                           |       |  |  |
+|HTTP Server                                           |                                           |       |  |  |
+|HTTPS server                                          |                                           |       |  |  |
+|ICMP Echo                                             |                                           |       |  |  |
+|mDNS Service                                          |                                           |       |  |  |
+|Mbed TLS                                              |                                           |       |  |  |
+|IP Network Layer                                      |                                           |       |  |  |
+|                                                      |                                           |       |  |  |
+|**Bluetooth API**                                     |                                           |       |  |  |
+|BT COMMON                                             |                                           |       |  |  |
+|BT LE                                                 |                                           |ESP32,ESP32C3 |  |  |
+|CLASSIC BT                                            |                                           |ESP32|  |  |
 |Controller && VHCI                                    |                                           |  |  |  |
 |ESP-BLE-MESH                                          |                                           |  |  |  |
 |NimBLE-based host APIs                                |                                           |  |  |  |
@@ -60,30 +60,30 @@ The objective is to define a common set of APIs for ESP32 chips.
 |                                                      |                                           |  |  |  |
 |**Networking APIs**                                   |                                           |  |  |  |
 |Wi-Fi                                                 |                                           |  |  |  |
-|Ethernet                                              |                                           |  |  |  |
+|Ethernet                                              |                                           |ESP32|  |  |
 |Thread                                                |                                           |  |  |  |
 |ESP-NETIF                                             |                                           |  |  |  |
 |IP Network Layer                                      |                                           |  |  |  |
 |Application Layer                                     |                                           |  |  |  |
 |                                                      |                                           |  |  |  |
 |**Peripherals API**|                                  |                                           |  |  |  |
-|Analog to Digital Converter (ADC)                     |                                           |  |  |  |
-|Digital To Analog Converter (DAC)                     |                                           |  |  |  |
-|GPIO & RTC GPIO                                       |                                           |  |  |  |
+|Analog to Digital Converter (ADC)                     |                                           |YES|  |  |
+|Digital To Analog Converter (DAC)                     |                                           |ESP32,ESP32-S2  |  |  |
+|GPIO & RTC GPIO                                       |                                           |YES (RTC?)  |  |  |
 |General Purpose Timer (GPTimer)                       |                                           |  |  |  |
-|Inter-Integrated Circuit (I2C)                        |                                           |  |  |  |
-|Inter-IC Sound (I2S)                                  |                                           |  |  |  |
+|Inter-Integrated Circuit (I2C)                        |                                           |YES|  |  |
+|Inter-IC Sound (I2S)                                  |                                           |ESP32 (WIP)|  |  |
 |LCD                                                   |                                           |  |  |  |
-|LED Control (LEDC)                                    |                                           |  |  |  |
-|Motor Control Pulse Width Modulator (MCPWM)           |                                           |  |  |  |
-|Pulse Counter (PCNT)                                  |                                           |  |  |  |
-|Remote Control (RMT)                                  |                                           |  |  |  |
+|LED Control (LEDC)                                    |                                           |YES|  |  |
+|Motor Control Pulse Width Modulator (MCPWM)           |                                           |No / Not Supported|  |  |
+|Pulse Counter (PCNT)                                  |                                           |No|  |  |
+|Remote Control (RMT)                                  |                                           |Yes|  |  |
 |SD Pull-up Requirements                               |                                           |  |  |  |
 |SDMMC Host Driver                                     |                                           |  |  |  |
 |SD SPI Host Driver                                    |                                           |  |  |  |
-|SDIO Card Slave Driver                                |                                           |  |  |  |
-|Sigma-delta Modulation                                |                                           |  |  |  |
-|SPI Master Driver                                     |                                           |  |  |  |
+|SDIO Card Slave Driver                                |                                           |No|  |  |
+|Sigma-delta Modulation                                |                                           |Yes?|  |  |
+|SPI Master Driver                                     |                                           |Yes?|  |  |
 |SPI Slave Driver                                      |                                           |  |  |  |
 |ESP32-WROOM-32SE (Secure Element)                     |                                           |  |  |  |
 |Touch Sensor                                          |                                           |  |  |  |
@@ -147,6 +147,8 @@ The objective is to define a common set of APIs for ESP32 chips.
 |ULP Coprocessor programming                           |                                           |  |  |  |
 |Watchdogs                                             |                                           |  |  |  |
 
+- Hall Sensor (Arduino)?
+- 
 
 # References
 
