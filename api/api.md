@@ -150,6 +150,13 @@ The objective is to define a common set of APIs for ESP32 chips.
 
 # References
 
+## Arduino
+
+https://www.arduino.cc/reference/en/
+
+https://docs.espressif.com/projects/arduino-esp32/en/latest/libraries.html
+
+
 ## Zephyr
 
 https://github.com/zephyrproject-rtos/zephyr/issues/29394
